@@ -1,10 +1,12 @@
+package week1;
+
 import java.util.Scanner;
 
 public class DivideWithoutOperator {
 
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in); // use the scanner method
         System.out.println("Enter first number");
         int a = input.nextInt();
         System.out.println("Enter second number");
